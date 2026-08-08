@@ -1,11 +1,11 @@
 # What is the goal of your workflow
 # Goal: Whenever someone changes the python code,
 # The linter will check if the syntax, format, indentation (linting) is correct or not
-
 name: Auto linter
+
 on:
   push:
-    paths: *.py
+    paths: "*.py"
 
 jobs:
   code:
