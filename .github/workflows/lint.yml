@@ -13,7 +13,7 @@ jobs:
     #this steps will automatically clone code of the current branch into the runner
     steps:
       - name: Checkout/Clone the code
-        uses: action/checkout@v7
+        uses: actions/checkout@v7
 
       - name: Install linter
         run: pip install ruff
